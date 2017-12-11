@@ -4,7 +4,10 @@
 
 //Bonus 2: Make both numbers whole integers (aka round to the nearest integer) 
 
+//Dutput:the calculeation,whish is the and perimeter of the circlae (with radius)
 function circleCalculation () {
-	//your code here
-
+	var area = Math.PI *(radius*
+	radius); 
+}
+circleCalculation(10);
 circleCalculation(10);
