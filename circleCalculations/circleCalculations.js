@@ -5,9 +5,14 @@
 //Bonus 2: Make both numbers whole integers (aka round to the nearest integer) 
 
 //Dutput:the calculeation,whish is the and perimeter of the circlae (with radius)
-function circleCalculation () {
+function circleCalculation (radius) {
 	var area = Math.PI *(radius*
-	radius); 
+	radius);
+	var perimeter =2*Math.PI*
+	radius;
+	document.write("the area of the circle is " + Math.round(area)+
+	'and the perimeter of the circle is' +Math.round(perimeter));
+ 
+
 }
-circleCalculation(10);
-circleCalculation(10);
+circleCalculation(5);
