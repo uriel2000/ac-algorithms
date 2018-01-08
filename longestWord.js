@@ -16,10 +16,26 @@
 // findLongestWord("May the force be with you") should return 5.
 // findLongestWord("Google do a barrel roll") should return 6.
 // findLongestWord("What is the average airspeed velocity of an unladen swallow") should return 8.
-// findLongestWord("What if we try a super-long word such as otorhinolaryngology") should return 19.
+// findLongestWord("What if we try a super-long word such as otorhinolaryngology") should return 19
 
 
 function findLongestWord(str) {
-  //your code here
+ //create a variable that will store the output of string to an array
+ var stringIntoArray= str.split(" ");
+ //variablemto store longest word length
+ var longest=0;
+ //for loop
+ for(var i=0;i=stringIntoArray.length;i++){
+   //conditionnal statemment 
+   if(longest<stringIntoArray[i].length){
+      longest=stringIntoArray[i].length;
+   }
+
+
+ }
+ 
+ 
+  return longest;
 }
 
+findLongestWord("what if we super-long word such as otorhinollaryngology");
